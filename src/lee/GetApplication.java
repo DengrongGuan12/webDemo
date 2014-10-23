@@ -8,11 +8,11 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * Created by soft on 2014/10/8.
+ * Created by gdr on 2014/10/23.
  */
 @webServlet(name="get-application",urlPatterns={"/get-application"})
 public class GetApplication extends HttpServlet{
-    public void service(HttpServletRequest request,HttpServletResponse response)throws IOException{
+    public void service(HttpServletRequest request,HttpServletResponse response)throws IOException {
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out=response.getWriter();
         out.println("<html><head><title>");
@@ -24,4 +24,6 @@ public class GetApplication extends HttpServlet{
         out.println("</body></html>");
 
     }
+
+
 }
