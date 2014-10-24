@@ -10,7 +10,7 @@ import java.io.PrintWriter;
 /**
  * Created by gdr on 2014/10/23.
  */
-@webServlet(name="get-application",urlPatterns={"/get-application"})
+//@webServlet(name="get-application",urlPatterns={"/get-application"})
 public class GetApplication extends HttpServlet{
     public void service(HttpServletRequest request,HttpServletResponse response)throws IOException {
         response.setContentType("text/html;charset=UTF-8");
