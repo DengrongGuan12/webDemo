@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page import="java.sql.*"%>
-<%@ page info="this is jsp!" errorPage="error.jsp" %>
+<%--<%@ page info="this is jsp!" errorPage="error.jsp" %>--%>
 <html>
 <head>
     <title>欢迎</title>
